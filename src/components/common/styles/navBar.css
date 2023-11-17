@@ -1,74 +1,82 @@
 @import "../../../data/styles.css";
 
 .nav-container {
-	margin: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: fixed;
-	top: 3vh;
-	z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 3vh;
+  z-index: 999;
+  background-color: #3498db; /* Change the background color to blue */
+  border-radius: 20px;
 }
 
 .nav-background {
-	width: 380px;
-	height: 40px;
-	padding-left: 0%;
-	padding-right: 0%;
-	background: #fff;
-	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-	border-radius: 40px;
+  width: 600px;
+  height: 40px;
+  padding-left: 0%;
+  padding-right: 0%;
+  background: linear-gradient(to right, #ff6b6b, #6b47ff); /* Use a gradient background */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5); /* Increase the shadow intensity */
+  border-radius: 40px;
 }
 
 .nav-list {
-	display: flex;
-	justify-content: space-between;
-	list-style: none;
-	align-items: center;
-	margin-left: -16px;
-	margin-right: 20px;
-	margin-top: 11px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  margin-left: -16px;
+  margin-right: 20px;
+  margin-top: 11px;
 }
 
 .nav-item {
-	font-weight: bold;
-	font-size: 80%;
+  font-weight: bold;
+  font-size: 80%;
+  color: #fff; /* Change the text color to white */
 }
 
 .nav-item.active a {
-	color: var(--link-color) !important;
+  color: #ff9900 !important; /* Change the active link color to orange */
 }
 
 .nav-item a {
-	text-decoration: none;
-	color: var(--primary-color);
+  text-decoration: none;
+  color: #fff; /* Change the link color to white */
+  transition: transform 0.3s ease-in-out;
 }
 
 .nav-item a:hover {
-	color: var(--link-color);
-	transition: color 0.3s ease-in-out;
+  color: #ff9900; /* Change the link color on hover to orange */
+  transition: color 0.3s ease-in-out;
+  transform: scale(1.1); /* Apply the zoom effect */
 }
 
 @media (max-width: 600px) {
-	.navbar {
-		margin-left: 25%;
-		margin-right: 25%;
-		width: 80%;
-		font-size: 80%;
-	}
+  .navbar {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 80%;
+    font-size: 80%;
+    background-color: #3498db; /* Change the background color to blue */
+  }
 
-	.nav-background {
-		width: 80%;
-		height: 40px;
-	}
+  .nav-background {
+    width: 80%;
+    height: 40px;
+    background: linear-gradient(to right, #ff6b6b, #6b47ff); /* Use a gradient background */
+  }
 
-	.nav-item {
-		font-weight: bold;
-	}
+  .nav-item {
+    font-weight: bold;
+    color: #fff; /* Change the text color to white */
+  }
 }

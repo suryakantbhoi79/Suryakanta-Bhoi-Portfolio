@@ -54,16 +54,16 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="about.jpg"
+											src="surya_about.jpg"
 											alt="about"
 											className="about-image"
 										/>
 									</div>
 								</div>
 
-								<div className="about-socials">
+								{/* <div className="about-socials">
 									<Socials />
-								</div>
+								</div> */}
 							</div>
 						</div>
 						<div className="about-socials-mobile">

@@ -15,12 +15,12 @@ const Footer = () => {
 						<li className="footer-nav-link-item">
 							<Link to="/about">About</Link>
 						</li>
-						<li className="footer-nav-link-item">
+						{/* <li className="footer-nav-link-item">
 							<Link to="/projects">Projects</Link>
-						</li>
-						<li className="footer-nav-link-item">
+						</li> */}
+						{/* <li className="footer-nav-link-item">
 							<Link to="/articles">Articles</Link>
-						</li>
+						</li> */}
 						<li className="footer-nav-link-item">
 							<Link to="/contact">Contact</Link>
 						</li>
@@ -29,7 +29,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2023 Tharindu.dev. All Rights Reserved.
+						© 2023 Suryakanta Bhoi. All Rights Reserved.
 					</div>
 				</div>
 			</div>

@@ -13,13 +13,13 @@ import {
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import Article from "../components/homepage/article";
-import Works from "../components/homepage/works";
-import AllProjects from "../components/projects/allProjects";
+// import Article from "../components/homepage/article";
+// import Works from "../components/homepage/works";
+// import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myArticles from "../data/articles";
+// import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
 
@@ -104,7 +104,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="surya_homepage.jpg"
+											src="111111111.png"
 											alt="about"
 											className="homepage-image"
 										/>
@@ -166,10 +166,10 @@ const Homepage = () => {
 							</a>
 						</div>
 
-						<div className="homepage-projects">
+						{/* <div className="homepage-projects">
 							<AllProjects />
-						</div>
-
+						</div> */}
+{/* 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
 								{myArticles.map((article, index) => (
@@ -191,7 +191,7 @@ const Homepage = () => {
 							<div className="homepage-works">
 								<Works />
 							</div>
-						</div>
+						</div> */}
 
 						<div className="page-footer">
 							<Footer />
