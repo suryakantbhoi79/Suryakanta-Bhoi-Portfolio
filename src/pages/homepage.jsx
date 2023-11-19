@@ -5,8 +5,9 @@ import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faTwitter,
-	faGithub,
-	faStackOverflow,
+	// faGithub,
+	faFacebook,
+	// faStackOverflow,
 	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -27,6 +28,9 @@ const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
 	const [oldLogoSize, setOldLogoSize] = useState(80);
+
+	const [currentTitle, setCurrentTitle] = useState("");
+  	const [titleIndex, setTitleIndex] = useState(0);
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -52,9 +56,27 @@ const Homepage = () => {
 			}
 		};
 
+		const typeWriterEffect = () => {
+			const titleText = INFO.homepage.title;
+			if (titleIndex < titleText.length) {
+			  setCurrentTitle((prev) => prev + titleText.charAt(titleIndex));
+			  setTitleIndex((prev) => prev + 1);
+			}else {
+				// Typing is complete, reset the index and title for the next iteration
+				setTitleIndex(0);
+				setCurrentTitle("");
+			  }
+		  };
+	  
+		const titleTypingInterval = setInterval(typeWriterEffect, 150);
+
 		window.addEventListener("scroll", handleScroll);
-		return () => window.removeEventListener("scroll", handleScroll);
-	}, [logoSize, oldLogoSize]);
+	
+		return () => {
+		window.removeEventListener("scroll", handleScroll);
+		clearInterval(titleTypingInterval);
+		  };
+		}, [logoSize, oldLogoSize, titleIndex]);
 
 	const currentSEO = SEO.find((item) => item.page === "home");
 
@@ -91,8 +113,8 @@ const Homepage = () => {
 					<div className="homepage-container">
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
-								<div className="title homepage-title">
-									{INFO.homepage.title}
+							<div className="title homepage-title">
+								{currentTitle}
 								</div>
 
 								<div className="subtitle homepage-subtitle">
@@ -124,7 +146,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							<a
+							{/* <a
 								href={INFO.socials.github}
 								target="_blank"
 								rel="noreferrer"
@@ -143,7 +165,11 @@ const Homepage = () => {
 									icon={faStackOverflow}
 									className="homepage-social-icon"
 								/>
+							</a> */}
+							<a href={INFO.socials.facebook} target="_blank" rel="noreferrer">
+								<FontAwesomeIcon icon={faFacebook} className="homepage-social-icon" />
 							</a>
+
 							<a
 								href={INFO.socials.instagram}
 								target="_blank"

@@ -7,24 +7,24 @@ const INFO = {
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
+		twitter: "https://twitter.com/SuryakantBhoi",
 		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
+		linkedin: "https://www.linkedin.com/in/suryakanta-bhoi/",
+		instagram: "https://www.instagram.com/surya0479/",
 		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		facebook: "https://www.facebook.com/suryakant.bhoi.5/",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer.",
+		title: "Full-stack web app developer.",
 		description:
-			"I am a backend developer with expertise in Python and Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"With a strong foundation in Full-stack development, I specialize in designing and implementing robust solutions using Python, Odoo, Postgresql, React, and Node.js. My portfolio showcases a diverse range of projects, demonstrating my proficiency in creating scalable and efficient applications that seamlessly integrate front-end and back-end technologies. I am passionate about delivering innovative solutions that meet the unique needs of clients and contribute to their success.",
 	},
 
 	about: {
-		title: "I’m Suryakanta Bhoi. I live in Bhubaneswar,Odisha, where I design the future.",
+		title: "Hii! I'm Suryakanta Bhoi. I live in Bhubaneswar,Odisha.",
 		description:
-			"I've worked on a variety of projects over the 2+years and I'm proud of the progress I've made. If you're interested to build something your own, please feel free to contact me.",
+			"With over 2 years of experience, I've successfully undertaken diverse projects and take pride in the substantial progress achieved. If you're envisioning the creation of something unique, don't hesitate to reach out. I'm eager to collaborate and bring your ideas to life.",
 	},
 
 	articles: {
