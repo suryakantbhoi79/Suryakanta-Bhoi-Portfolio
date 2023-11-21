@@ -30,8 +30,19 @@
 }
 
 .about-title {
-	width: 100% !important;
+    width: 100%;
+    max-width: 100%; /* Ensure the title doesn't exceed the screen width */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
 }
+
+/* Adjustments for small screens (600px and below) */
+
+@media (max-width: 100px) {
+    .about-title {
+        font-size: 1.5rem; /* Adjust font size as needed */
+    }
+}
+
 
 .about-subtitle {
 	width: 80% !important;

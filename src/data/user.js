@@ -22,7 +22,7 @@ const INFO = {
 	},
 
 	about: {
-		title: "Hii! I'm Suryakanta Bhoi. I live in Bhubaneswar,Odisha.",
+		title: "Hi! I'm Suryakanta Bhoi.",
 		description:
 			"With over 2 years of experience, I've successfully undertaken diverse projects and take pride in the substantial progress achieved. If you're envisioning the creation of something unique, don't hesitate to reach out. I'm eager to collaborate and bring your ideas to life.",
 	},
