@@ -16,7 +16,7 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web app developer.",
+		title: "Full-Stack Web App Developer.",
 		description:
 			"With a strong foundation in Full-stack development, I specialize in designing and implementing robust solutions using Python, Odoo, Postgresql, React, and Node.js. My portfolio showcases a diverse range of projects, demonstrating my proficiency in creating scalable and efficient applications that seamlessly integrate front-end and back-end technologies. I am passionate about delivering innovative solutions that meet the unique needs of clients and contribute to their success.",
 	},
