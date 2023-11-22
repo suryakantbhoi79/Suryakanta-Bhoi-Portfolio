@@ -33,52 +33,34 @@ const INFO = {
 			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
 	},
 
-	// projects: [
-	// 	{
-	// 		title: "Project 1",
-	// 		description:
-	// 			"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-	// 		logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-	// 		linkText: "View Project",
-	// 		link: "https://github.com",
-	// 	},
+	projects: [
+		{
+			title: "Delhi Public School,Damanjodi",
+			description:
+				"DPS Damanjodi, A Module For School Management, I have contributed many parts of this project like Alumni Sign Up Scree and Functionality, News and Events, And Some footer contents.",
+			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Odoo_logo.svg/2560px-Odoo_logo.svg.png",
+			linkText: "View Project",
+			link: "http://dpsdamanjodi.com/",
+		},
 
-	// 	{
-	// 		title: "Project 2",
-	// 		description:
-	// 			"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-	// 		logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-	// 		linkText: "View Project",
-	// 		link: "https://github.com",
-	// 	},
+		{
+			title: "Kwantify",
+			description:
+				"An ERP Solution solution project in which I have contributed in some module developement for CSM Technologies.",
+			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Odoo_logo.svg/2560px-Odoo_logo.svg.png",
+			linkText: "View Project",
+			link: "https://portal.csm.co.in/",
+		},
 
-	// 	{
-	// 		title: "Project 3",
-	// 		description:
-	// 			"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-	// 		logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-	// 		linkText: "View Project",
-	// 		link: "https://github.com",
-	// 	},
-
-	// 	{
-	// 		title: "Project 4",
-	// 		description:
-	// 			"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-	// 		logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-	// 		linkText: "View Project",
-	// 		link: "https://github.com",
-	// 	},
-
-	// 	{
-	// 		title: "Project 5",
-	// 		description:
-	// 			"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-	// 		logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-	// 		linkText: "View Project",
-	// 		link: "https://github.com",
-	// 	},
-	// ],
+		{
+			title: "Suryakanta Bhoi Portfolio",
+			description:
+				"It's a personal portfolio which is built in Reactjs.",
+			logo: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+			linkText: "View Project",
+			link: "https://suryakanta-bhoi-portfolio.netlify.app",
+		},
+	],
 };
 
 export default INFO;

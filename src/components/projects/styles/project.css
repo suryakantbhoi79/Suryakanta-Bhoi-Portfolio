@@ -9,13 +9,41 @@
 
 .project a {
 	text-decoration: none;
-}
-
-.project:hover {
-	background: #fafafa;
-	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
+
+.projects-title{
+	text-transform: uppercase;
+   background-image: linear-gradient(
+	 -225deg,
+	 #231557 0%,
+	 #44107a 29%,
+	 #ff1361 67%,
+	 #fff800 100%
+   );
+   background-size: auto auto;
+   background-clip: border-box;
+   background-size: 200% auto;
+   color: #fff;
+   background-clip: text;
+   /* text-fill-color: transparent; */
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: textclip 2s linear infinite;
+   display: inline-block;
+	   font-size: 190px;
+ }
+ 
+ @keyframes textclip {
+   to {
+	 background-position: 200% center;
+   }
+ }
+
+.project:hover {
+	transform: scale(1.1); /* Adjust the scale factor as needed */
+	box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* Adjust the box-shadow as needed */
+  }
 
 .project:hover .project-link {
 	color: var(--link-color);
@@ -36,12 +64,25 @@
 
 .project-title {
 	font-family: var(--secondary-font);
-	color: var(--primary-color);
+	color: hsl(186 100% 69%);; /* Change to your desired text color */
 	font-size: 16px;
 	padding-top: 15px;
 	margin-bottom: 1em;
 	font-weight: 700;
-}
+	position: relative;
+	display: inline-block;
+	animation: glow 2s infinite alternate;
+  }
+  
+  @keyframes glow {
+	0% {
+	  text-shadow: 0 0 5px rgba(52, 152, 219, 0.2); /* Change to your desired glow color */
+	}
+	100% {
+	  text-shadow: 0 0 20px rgba(52, 152, 219, 0.5); /* Change to your desired glow color */
+	}
+  }
+  
 
 .project-description {
 	color: var(--secondary-color);
@@ -63,6 +104,95 @@
 .project-link-text {
 	padding-left: 20px;
 	font-weight: 700;
+}
+
+.custom-btn {
+	width: 130px;
+	height: 40px;
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px 25px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	background: transparent;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+	 box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+	 7px 7px 20px 0px rgba(0,0,0,.1),
+	 4px 4px 5px 0px rgba(0,0,0,.1);
+	outline: none;
+  }
+
+.btn-3 {
+  background: rgb(0,172,238);
+background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  
+}
+.btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-3:before,
+.btn-3:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+   background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
+}
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-3:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3:hover{
+   background: transparent;
+  box-shadow: none;
+}
+.btn-3:hover:before {
+  height: 100%;
+}
+.btn-3:hover:after {
+  width: 100%;
+}
+.btn-3 span:hover{
+   color: rgba(2,126,251,1);
+}
+.btn-3 span:before,
+.btn-3 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+   background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
+}
+.btn-3 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-3 span:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3 span:hover:before {
+  height: 100%;
+}
+.btn-3 span:hover:after {
+  width: 100%;
 }
 
 @media (max-width: 600px) {
