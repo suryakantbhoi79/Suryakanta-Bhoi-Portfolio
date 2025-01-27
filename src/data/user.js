@@ -10,7 +10,7 @@ const INFO = {
 		twitter: "https://twitter.com/SuryakantBhoi",
 		github: "https://github.com/",
 		linkedin: "https://www.linkedin.com/in/suryakanta-bhoi/",
-		instagram: "https://www.instagram.com/surya0479/",
+		instagram: "https://www.instagram.com/suryakantb.08/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://www.facebook.com/suryakant.bhoi.5/",
 	},
