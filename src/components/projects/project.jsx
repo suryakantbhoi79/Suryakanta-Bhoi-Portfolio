@@ -5,15 +5,12 @@ import React from "react";
 import "./styles/project.css";
 
 const Project = (props) => {
-	const { logo, title, description, linkText } = props;
+	const { title, description, linkText } = props;
 
 	return (
 		<React.Fragment>
 			<div className="project">
 				<div className="project-container">
-					<div className="project-logo">
-						<img src={logo} alt={title} />
-					</div>
 					<div className="project-title">{title}</div>
 					<div className="project-description">{description}</div>
 					<div className="project-link">
