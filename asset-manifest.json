@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Suryakanta-Bhoi-Portfolio/static/css/main.b72c8218.css",
+    "main.js": "/Suryakanta-Bhoi-Portfolio/static/js/main.39462f2f.js",
+    "static/js/787.512dd3f2.chunk.js": "/Suryakanta-Bhoi-Portfolio/static/js/787.512dd3f2.chunk.js",
+    "index.html": "/Suryakanta-Bhoi-Portfolio/index.html",
+    "main.b72c8218.css.map": "/Suryakanta-Bhoi-Portfolio/static/css/main.b72c8218.css.map",
+    "main.39462f2f.js.map": "/Suryakanta-Bhoi-Portfolio/static/js/main.39462f2f.js.map",
+    "787.512dd3f2.chunk.js.map": "/Suryakanta-Bhoi-Portfolio/static/js/787.512dd3f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b72c8218.css",
+    "static/js/main.39462f2f.js"
+  ]
+}
