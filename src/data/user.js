@@ -3,28 +3,31 @@ const INFO = {
 		title: "Suryakanta Bhoi Portfolio",
 		name: "Suryakanta Bhoi",
 		email: "suryakantbhoi79@gmail.com",
+		phone: "+91-8249504430",
+		location: "Bhubaneswar, Odisha, India",
 		logo: "../surya_logo.jpg",
+		resume: "/Suryakanta_Bhoi_CV_V1.pdf",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/SuryakantBhoi",
-		github: "https://github.com/",
+		github: "",
 		linkedin: "https://www.linkedin.com/in/suryakanta-bhoi/",
-		instagram: "https://www.instagram.com/suryakantb.08/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://www.facebook.com/suryakant.bhoi.5/",
+		instagram: "",
+		stackoverflow: "",
+		facebook: "",
+		twitter: "",
 	},
 
 	homepage: {
-		title: "Full-Stack Web Developer.",
+		title: "AI Engineer | Python | GenAI | Agentic AI",
 		description:
-			"With a strong foundation in Full-stack development, I specialize in designing and implementing robust solutions using Python, Odoo, Postgresql, React, and Node.js. My portfolio showcases a diverse range of projects, demonstrating my proficiency in creating scalable and efficient applications that seamlessly integrate front-end and back-end technologies. I am passionate about delivering innovative solutions that meet the unique needs of clients and contribute to their success.",
+			"AI Engineer with 5+ years of software development experience and 2 years focused on production LLM systems. I build scalable Generative AI applications using Python, FastAPI, LangChain, LangGraph, RAG pipelines, pgvector, and OpenAI APIs, while also delivering ERP solutions that integrate AI into real business workflows.",
 	},
 
 	about: {
 		title: "Hi! I'm Suryakanta Bhoi.",
 		description:
-			"With over 2 years of experience, I've successfully undertaken diverse projects and take pride in the substantial progress achieved. If you're envisioning the creation of something unique, don't hesitate to reach out. I'm eager to collaborate and bring your ideas to life.",
+			"I work at the intersection of AI engineering and enterprise software. At CSM Technologies, I design LLM-powered products, RAG systems, and agentic workflows that automate support, recruitment, and ERP operations. My background in Python, FastAPI, Odoo, and PostgreSQL helps me ship AI solutions that are not just impressive demos, but maintainable systems aligned with production business needs.",
 	},
 
 	articles: {
@@ -33,32 +36,82 @@ const INFO = {
 			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
 	},
 
+	skills: [
+		"Python",
+		"Generative AI",
+		"Agentic AI",
+		"LangChain",
+		"LangGraph",
+		"RAG",
+		"Prompt Engineering",
+		"FastAPI",
+		"OpenAI APIs",
+		"pgvector",
+		"PostgreSQL",
+		"Odoo",
+		"Django",
+		"Docker",
+		"REST APIs",
+	],
+
+	experience: [
+		{
+			role: "Software Engineer (AI & ERP)",
+			company: "CSM Technologies",
+			duration: "December 2021 - Present",
+			summary:
+				"Building LLM-powered products, RAG pipelines, AI chatbots, and AI-enhanced ERP modules from requirement gathering through deployment.",
+		},
+		{
+			role: "Intern - Software Developer",
+			company: "Casper Technology Services Pvt. Ltd.",
+			duration: "May 2021 - November 2021",
+			summary:
+				"Contributed to Python web application development, REST API creation, database-backed features, and frontend integration.",
+		},
+	],
+
+	highlights: [
+		"2 years of hands-on experience building production LLM applications and 5+ years in software development.",
+		"Experienced in agent-based workflows, tool calling, multi-step reasoning, and human-in-the-loop orchestration.",
+		"Strong in vector search and retrieval pipelines using PostgreSQL with pgvector, FAISS, and Chroma.",
+		"Comfortable turning business requirements into deployable AI and ERP solutions with measurable operational value.",
+	],
+
 	projects: [
 		{
-			title: "Delhi Public School,Damanjodi",
+			title: "AI-Powered Helpdesk & Ticket Management System",
 			description:
-				"DPS Damanjodi, A Module For School Management, I have contributed many parts of this project like Alumni Sign Up Scree and Functionality, News and Events, And Some footer contents.",
+				"Built a microservice-based support platform with FastAPI services, a customer-facing AI chatbot, LangGraph agent workflows, and pgvector-backed RAG for grounded ticket resolution and 24/7 support automation.",
 			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Odoo_logo.svg/2560px-Odoo_logo.svg.png",
-			linkText: "View Project",
-			link: "http://dpsdamanjodi.com/",
+			linkText: "View Resume",
+			link: "/Suryakanta_Bhoi_CV_V1.pdf",
 		},
 
 		{
-			title: "Kwantify",
+			title: "ERP Operational AI Chatbot",
 			description:
-				"An ERP Solution solution project in which I have contributed in some module developement for CSM Technologies.",
+				"Designed a GenAI chatbot inside Odoo ERP using LangChain, LangGraph, OpenAI, and pgvector to answer HR and operations queries from live enterprise data through a conversational interface.",
 			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Odoo_logo.svg/2560px-Odoo_logo.svg.png",
-			linkText: "View Project",
-			link: "https://portal.csm.co.in/",
+			linkText: "View Resume",
+			link: "/Suryakanta_Bhoi_CV_V1.pdf",
 		},
 
 		{
-			title: "Suryakanta Bhoi Portfolio",
+			title: "AI-Assisted Recruitment Screener & CV Analyser",
 			description:
-				"It's a personal portfolio which is built in Reactjs.",
+				"Developed an AI recruitment assistant that parses CVs, extracts structured candidate data, scores applicants against job requirements, and surfaces recruiter-ready summaries directly in Odoo.",
 			logo: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
-			linkText: "View Project",
-			link: "https://suryakanta-bhoi-portfolio.netlify.app",
+			linkText: "View Resume",
+			link: "/Suryakanta_Bhoi_CV_V1.pdf",
+		},
+		{
+			title: "Kwantify ERP Platform",
+			description:
+				"Contributed to a large ERP platform covering recruitment, appraisal, DMS, employee handbook, surveys, gallery, and CV generation features for a 20-member delivery team.",
+			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Odoo_logo.svg/2560px-Odoo_logo.svg.png",
+			linkText: "View Resume",
+			link: "/Suryakanta_Bhoi_CV_V1.pdf",
 		},
 	],
 };

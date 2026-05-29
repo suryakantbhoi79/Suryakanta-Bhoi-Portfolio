@@ -2,15 +2,33 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["Surya", "Suryakanta", "Suryakanta Bhoi", "Suryakant Bhoi"],
+			"AI Engineer specializing in Generative AI, LangChain, LangGraph, RAG pipelines, FastAPI, pgvector, and enterprise AI solutions.",
+		keywords: [
+			"Surya",
+			"Suryakanta",
+			"Suryakanta Bhoi",
+			"Suryakant Bhoi",
+			"AI Engineer",
+			"Generative AI",
+			"LangChain",
+			"LangGraph",
+			"RAG",
+			"FastAPI",
+		],
 	},
 
 	{
 		page: "about",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["Surya", "Suryakanta", "Suryakanta Bhoi", "Suryakant Bhoi"],
+			"Learn more about Suryakanta Bhoi, an AI Engineer building production LLM systems, agentic workflows, and AI-enhanced ERP products.",
+		keywords: [
+			"Surya",
+			"Suryakanta",
+			"Suryakanta Bhoi",
+			"Suryakant Bhoi",
+			"AI Engineer",
+			"ERP Developer",
+		],
 	},
 
 	{
@@ -23,15 +41,30 @@ const SEO = [
 	{
 		page: "projects",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to.",
-		keywords: ["Surya", "Suryakanta", "Suryakanta Bhoi", "Suryakant Bhoi"],
+			"Selected AI, GenAI, and ERP projects including RAG systems, agentic workflows, AI recruitment tooling, and enterprise product development.",
+		keywords: [
+			"Surya",
+			"Suryakanta",
+			"Suryakanta Bhoi",
+			"Suryakant Bhoi",
+			"AI Projects",
+			"GenAI Projects",
+			"ERP Projects",
+		],
 	},
 
 	{
 		page: "contact",
 		description:
-			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",
-		keywords: ["Surya", "Suryakanta", "Suryakanta Bhoi", "Suryakant Bhoi"],
+			"Contact Suryakanta Bhoi for AI engineering, LLM application development, RAG systems, FastAPI services, and enterprise AI collaboration.",
+		keywords: [
+			"Surya",
+			"Suryakanta",
+			"Suryakanta Bhoi",
+			"Suryakant Bhoi",
+			"Contact AI Engineer",
+			"OpenAI API Developer",
+		],
 	},
 ];
 

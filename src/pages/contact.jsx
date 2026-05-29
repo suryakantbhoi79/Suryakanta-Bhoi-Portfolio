@@ -40,11 +40,11 @@ const Contact = () => {
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Connect with Me: Here's How We Can Get in Touch
+							Let's Build Practical AI Systems
 						</div>
 
 						<div className="subtitle contact-subtitle">
-							Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at&nbsp; <a href={`mailto:${INFO.main.email}`}>{INFO.main.email}</a>. I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods. Alternatively, you can use the contact form on my website to get in touch. Simply fill out the required fields, and I'll get back to you as soon as possible. Finally, if you prefer to connect on social media, you can find me on <a href={INFO.socials.instagram} target="_blank" rel="noreferrer">{INFO.socials.instagram}</a>. I post regular updates and engage with my followers there, so don't hesitate to reach out. Thanks again for your interest, and I look forward to hearing from you!
+							If you are hiring for AI engineering, building LLM-powered products, or exploring ERP workflows enhanced by Generative AI, reach out at <a href={`mailto:${INFO.main.email}`}>{INFO.main.email}</a> or call <a href={`tel:${INFO.main.phone}`}>{INFO.main.phone}</a>. You can also connect with me on <a href={INFO.socials.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>. I am based in {INFO.main.location} and open to conversations around Python, FastAPI, RAG systems, agentic workflows, and production AI delivery.
 						</div>
 
 					</div>

@@ -1,26 +1,17 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import { faFileLines, faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faTwitter,
-	// 	,
-	faFacebook,
-	// faStackOverflow,
-	faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 	
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-// import Article from "../components/homepage/article";
-// import Works from "../components/homepage/works";
-// import AllProjects from "../components/projects/allProjects";
+import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-// import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
 
@@ -136,49 +127,8 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-socials">
-							<a
-								href={INFO.socials.twitter}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faTwitter}
-									className="homepage-social-icon"
-								/>
-							</a>
-							{/* <a
-								href={INFO.socials.github}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faGithub}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.stackoverflow}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faStackOverflow}
-									className="homepage-social-icon"
-								/>
-							</a> */}
-							<a href={INFO.socials.facebook} target="_blank" rel="noreferrer">
-								<FontAwesomeIcon icon={faFacebook} className="homepage-social-icon" />
-							</a>
-
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faInstagram}
-									className="homepage-social-icon"
-								/>
+							<a href={INFO.socials.linkedin} target="_blank" rel="noreferrer">
+								<FontAwesomeIcon icon={faLinkedin} className="homepage-social-icon" />
 							</a>
 							<a
 								href={`mailto:${INFO.main.email}`}
@@ -190,34 +140,67 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
+							<a href={INFO.main.resume} target="_blank" rel="noreferrer">
+								<FontAwesomeIcon
+									icon={faFileLines}
+									className="homepage-social-icon"
+								/>
+							</a>
 						</div>
 
-						{/* <div className="homepage-projects">
-							<AllProjects />
-						</div> */}
-{/* 
-						<div className="homepage-after-title">
-							<div className="homepage-articles">
-								{myArticles.map((article, index) => (
-									<div
-										className="homepage-article"
-										key={(index + 1).toString()}
-									>
-										<Article
-											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-										/>
+						<div className="homepage-meta">
+							<div className="homepage-meta-item">{INFO.main.location}</div>
+							<div className="homepage-meta-item">{INFO.main.phone}</div>
+						</div>
+
+						<div className="homepage-section">
+							<div className="homepage-section-title">Professional Highlights</div>
+							<div className="homepage-highlight-list">
+								{INFO.highlights.map((highlight, index) => (
+									<div className="homepage-highlight-item" key={index}>
+										{highlight}
 									</div>
 								))}
 							</div>
+						</div>
 
-							<div className="homepage-works">
-								<Works />
+						<div className="homepage-section">
+							<div className="homepage-section-title">Core Skills</div>
+							<div className="homepage-skill-list">
+								{INFO.skills.map((skill, index) => (
+									<div className="homepage-skill-pill" key={index}>
+										{skill}
+									</div>
+								))}
 							</div>
-						</div> */}
+						</div>
+
+						<div className="homepage-section">
+							<div className="homepage-section-title">Experience</div>
+							<div className="homepage-experience-list">
+								{INFO.experience.map((item, index) => (
+									<div className="homepage-experience-card" key={index}>
+										<div className="homepage-experience-role">{item.role}</div>
+										<div className="homepage-experience-company">
+											{item.company}
+										</div>
+										<div className="homepage-experience-duration">
+											{item.duration}
+										</div>
+										<div className="homepage-experience-summary">
+											{item.summary}
+										</div>
+									</div>
+								))}
+							</div>
+						</div>
+
+						<div className="homepage-section">
+							<div className="homepage-section-title">Selected Projects</div>
+							<div className="homepage-projects">
+								<AllProjects />
+							</div>
+						</div>
 
 						<div className="page-footer">
 							<Footer />

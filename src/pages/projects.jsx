@@ -39,16 +39,11 @@ const Projects = () => {
 					</div> */}
 					<div className="projects-container">
 						<div className="title projects-title">
-							What, I have done!!
+							Selected AI And ERP Work
 						</div>
 
 						<div className="subtitle projects-subtitle">
-						In the course of my career, I've undertaken a spectrum 
-						of projects, each representing a unique challenge and a 
-						chance for innovation. From tackling complex problems to 
-						implementing creative solutions, these endeavors have been
-						 a testament to my dedication and skill set. I take pride in 
-						 the diversity of my project portfolio, showcasing not only my adaptability but also my ability to deliver impactful results. Whether it's leading a team or contributing as part of a collaborative effort, I've consistently strived for excellence in every project I've been involved in.
+						My recent work centers on production-ready AI systems: RAG pipelines, enterprise chatbots, agentic workflows, and AI-assisted ERP modules. The projects below reflect the strongest overlap between my CV and the kind of systems I design, implement, and ship in real business environments.
 						</div>
 
 						<div className="projects-list">

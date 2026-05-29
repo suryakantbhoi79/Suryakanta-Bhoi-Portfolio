@@ -68,6 +68,21 @@
 	padding-top: 30px;
 }
 
+.homepage-meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	padding-top: 24px;
+}
+
+.homepage-meta-item {
+	border: 1px solid rgba(123, 253, 58, 0.3);
+	border-radius: 999px;
+	color: #f4f4f5;
+	font-size: 14px;
+	padding: 10px 16px;
+}
+
 .homepage-social-icon {
 	padding-right: 20px;
 	font-size: 25px;
@@ -84,8 +99,7 @@
 }
 
 .homepage-projects {
-	flex-basis: 300px;
-	padding-top: 40px;
+	padding-top: 24px;
 }
 
 .homepage-articles {
@@ -101,6 +115,73 @@
 .homepage-works {
 	flex-basis: 600px;
 	padding-top: 30px;
+}
+
+.homepage-section {
+	padding-top: 48px;
+}
+
+.homepage-section-title {
+	color: #f4f4f5;
+	font-family: var(--secondary-font);
+	font-size: 26px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.homepage-highlight-list,
+.homepage-experience-list {
+	display: grid;
+	gap: 18px;
+}
+
+.homepage-highlight-item,
+.homepage-experience-card {
+	background: rgba(255, 255, 255, 0.04);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-radius: 18px;
+	color: #d4d4d8;
+	line-height: 1.7;
+	padding: 20px 22px;
+}
+
+.homepage-skill-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+}
+
+.homepage-skill-pill {
+	background: rgba(155, 155, 255, 0.14);
+	border: 1px solid rgba(155, 155, 255, 0.24);
+	border-radius: 999px;
+	color: #f4f4f5;
+	font-size: 14px;
+	padding: 10px 14px;
+}
+
+.homepage-experience-role {
+	color: #f4f4f5;
+	font-family: var(--secondary-font);
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.homepage-experience-company {
+	color: #7bfd3a;
+	font-size: 15px;
+	font-weight: 600;
+	padding-top: 6px;
+}
+
+.homepage-experience-duration {
+	color: #a1a1aa;
+	font-size: 14px;
+	padding-top: 6px;
+}
+
+.homepage-experience-summary {
+	padding-top: 12px;
 }
 
 @media (max-width: 1024px) {
@@ -148,6 +229,10 @@
 		flex-basis: auto;
 	}
 
+	.homepage-meta {
+		gap: 10px;
+	}
+
 	.homepage-articles {
 		flex-basis: auto;
 	}
@@ -156,5 +241,10 @@
 		flex-basis: auto;
 		margin-left: -25px;
 		margin-right: -25px;
+	}
+
+	.homepage-image-container {
+		width: 300px;
+		height: 300px;
 	}
 }
