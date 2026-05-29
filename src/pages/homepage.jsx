@@ -70,6 +70,8 @@ const Homepage = () => {
 		}, [logoSize, oldLogoSize, titleIndex]);
 
 	const currentSEO = SEO.find((item) => item.page === "home");
+	const canonicalUrl = `${INFO.main.website}${currentSEO.path}`;
+	const ogImageUrl = `${INFO.main.website}${INFO.main.ogImage}`;
 
 	const logoStyle = {
 		display: "flex",
@@ -84,12 +86,23 @@ const Homepage = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{INFO.main.title}</title>
+				<title>{currentSEO.title}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
 					content={currentSEO.keywords.join(", ")}
 				/>
+				<link rel="canonical" href={canonicalUrl} />
+				<meta property="og:type" content="website" />
+				<meta property="og:title" content={currentSEO.title} />
+				<meta property="og:description" content={currentSEO.description} />
+				<meta property="og:url" content={canonicalUrl} />
+				<meta property="og:image" content={ogImageUrl} />
+				<meta property="og:site_name" content={INFO.main.name} />
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:title" content={currentSEO.title} />
+				<meta name="twitter:description" content={currentSEO.description} />
+				<meta name="twitter:image" content={ogImageUrl} />
 			</Helmet>
 
 			<div className="page-content">

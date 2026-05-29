@@ -5,7 +5,9 @@ const INFO = {
 		email: "suryakantbhoi79@gmail.com",
 		phone: "+91-8249504430",
 		location: "Bhubaneswar, Odisha, India",
+		website: "https://suryakanta-bhoi-portfolio.netlify.app",
 		logo: "../surya_logo.jpg",
+		ogImage: "/surya_about.jpg",
 		resume: "/Suryakanta_Bhoi_CV_V1.pdf",
 	},
 
@@ -84,8 +86,7 @@ const INFO = {
 			description:
 				"Built a microservice-based support platform with FastAPI services, a customer-facing AI chatbot, LangGraph agent workflows, and pgvector-backed RAG for grounded ticket resolution and 24/7 support automation.",
 			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Odoo_logo.svg/2560px-Odoo_logo.svg.png",
-			linkText: "View Resume",
-			link: "/Suryakanta_Bhoi_CV_V1.pdf",
+			linkText: "Project details available on request",
 		},
 
 		{
@@ -93,8 +94,7 @@ const INFO = {
 			description:
 				"Designed a GenAI chatbot inside Odoo ERP using LangChain, LangGraph, OpenAI, and pgvector to answer HR and operations queries from live enterprise data through a conversational interface.",
 			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Odoo_logo.svg/2560px-Odoo_logo.svg.png",
-			linkText: "View Resume",
-			link: "/Suryakanta_Bhoi_CV_V1.pdf",
+			linkText: "Project details available on request",
 		},
 
 		{
@@ -102,16 +102,14 @@ const INFO = {
 			description:
 				"Developed an AI recruitment assistant that parses CVs, extracts structured candidate data, scores applicants against job requirements, and surfaces recruiter-ready summaries directly in Odoo.",
 			logo: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
-			linkText: "View Resume",
-			link: "/Suryakanta_Bhoi_CV_V1.pdf",
+			linkText: "Project details available on request",
 		},
 		{
 			title: "Kwantify ERP Platform",
 			description:
 				"Contributed to a large ERP platform covering recruitment, appraisal, DMS, employee handbook, surveys, gallery, and CV generation features for a 20-member delivery team.",
 			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Odoo_logo.svg/2560px-Odoo_logo.svg.png",
-			linkText: "View Resume",
-			link: "/Suryakanta_Bhoi_CV_V1.pdf",
+			linkText: "Project details available on request",
 		},
 	],
 };
